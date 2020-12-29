@@ -1,0 +1,5 @@
+export BUILT_PRODUCTS_DIR="/Users/majianjie/Library/Developer/Xcode/DerivedData/XcodeCoverageDemo-gjroylkxgezltofowdpqdojnbnuc/Build/Products/Debug-iphonesimulator"
+export CURRENT_ARCH="x86_64"
+export OBJECT_FILE_DIR_normal="/Users/majianjie/Library/Developer/Xcode/DerivedData/XcodeCoverageDemo-gjroylkxgezltofowdpqdojnbnuc/Build/Intermediates.noindex/XcodeCoverageDemo.build/Debug-iphonesimulator/XcodeCoverageDemo.build/Objects-normal"
+export OBJROOT="/Users/majianjie/Library/Developer/Xcode/DerivedData/XcodeCoverageDemo-gjroylkxgezltofowdpqdojnbnuc/Build/Intermediates.noindex"
+export SRCROOT="/Users/majianjie/Desktop/XcodeCoverageDemo"
