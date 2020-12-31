@@ -157,8 +157,9 @@ generate_html_report() {
   "${LCOV_PATH}/genhtml" --output-directory . "${LCOV_INFO}"
 }
 
-generate_report()
+re_generate_report()
 {
+    rm -rf ${REPORT_DIR}
     "${LCOV_PATH}/genhtml" --output-directory  "${REPORT_DIR}"  "${LCOV_INFO}"
     cd ${REPORT_DIR}
     open index.html
@@ -179,7 +180,7 @@ show_html_report() {
   open index.html
 
   echo "~~~在指定目录 重新生成html  再次打开~~~"
-  generate_report
+  re_generate_report
 
 }
 
