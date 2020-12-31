@@ -16,6 +16,8 @@
     return YES;
 }
 
+
+
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
     [self codeCoverage];/// 生成覆盖率记录
