@@ -8,11 +8,9 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     return YES;
@@ -43,7 +41,6 @@
     /// 模拟器走这里的逻辑
     extern void __gcov_flush(void);
     __gcov_flush();
-    
 #endif
      
 }
