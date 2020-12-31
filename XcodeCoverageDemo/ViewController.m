@@ -60,7 +60,6 @@
         make.width.height.mas_equalTo(29);
     }];
     
-    
     NSLog(@"sssssssss");
     
 }
