@@ -26,6 +26,8 @@
 //        });
 //    }
     
+    NSLog(@"%s",__func__);
+    
     return YES;
     
 }

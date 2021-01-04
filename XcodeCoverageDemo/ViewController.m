@@ -17,11 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"%s",__func__);
     
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
+    NSLog(@"%s",__func__);
+
     TempVC *t = [[TempVC alloc] init];
     [self.navigationController pushViewController:t animated:YES];
     

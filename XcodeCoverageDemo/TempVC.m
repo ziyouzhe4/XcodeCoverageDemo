@@ -21,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"%s",__func__);
+
     self.view.backgroundColor = [UIColor whiteColor];
     [self dragDemo];
     
