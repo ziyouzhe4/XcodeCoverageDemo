@@ -17,6 +17,7 @@
 		0A07CB18259325E1003B6D86 /* UNIPriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07CB0E259325E1003B6D86 /* UNIPriceView.m */; };
 		0A07CB19259325E1003B6D86 /* UNITaximeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07CB14259325E1003B6D86 /* UNITaximeter.m */; };
 		0A07CB1A259325E1003B6D86 /* UIView+Drag.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07CB15259325E1003B6D86 /* UIView+Drag.m */; };
+		0A93825625A321B100A47937 /* TempVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A93825525A321B100A47937 /* TempVC.m */; };
 		618E02DF5CCED0BCE560E09B /* libPods-XcodeCoverageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AB46E58DB344840555166B /* libPods-XcodeCoverageDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,8 @@
 		0A07CB13259325E1003B6D86 /* UNIPriceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIPriceView.h; sourceTree = "<group>"; };
 		0A07CB14259325E1003B6D86 /* UNITaximeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNITaximeter.m; sourceTree = "<group>"; };
 		0A07CB15259325E1003B6D86 /* UIView+Drag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Drag.m"; sourceTree = "<group>"; };
+		0A93825425A321B100A47937 /* TempVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempVC.h; sourceTree = "<group>"; };
+		0A93825525A321B100A47937 /* TempVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempVC.m; sourceTree = "<group>"; };
 		93AB46E58DB344840555166B /* libPods-XcodeCoverageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XcodeCoverageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58BC5BF02F6C5B27F09AAF9 /* Pods-XcodeCoverageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeCoverageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeCoverageDemo/Pods-XcodeCoverageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FDC570B9BBBD51CDA166F6D5 /* Pods-XcodeCoverageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeCoverageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeCoverageDemo/Pods-XcodeCoverageDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				0A07CAD2259321D0003B6D86 /* AppDelegate.m */,
 				0A07CAD7259321D0003B6D86 /* ViewController.h */,
 				0A07CAD8259321D0003B6D86 /* ViewController.m */,
+				0A93825425A321B100A47937 /* TempVC.h */,
+				0A93825525A321B100A47937 /* TempVC.m */,
 			);
 			path = XcodeCoverageDemo;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			files = (
 				0A07CB17259325E1003B6D86 /* UNIIntegerView.m in Sources */,
 				0A07CB1A259325E1003B6D86 /* UIView+Drag.m in Sources */,
+				0A93825625A321B100A47937 /* TempVC.m in Sources */,
 				0A07CAD9259321D0003B6D86 /* ViewController.m in Sources */,
 				0A07CB19259325E1003B6D86 /* UNITaximeter.m in Sources */,
 				0A07CAD3259321D0003B6D86 /* AppDelegate.m in Sources */,

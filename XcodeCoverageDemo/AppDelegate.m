@@ -8,14 +8,25 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic,strong)NSString *name;
+
 @end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+//    dispatch_queue_t queue = dispatch_get_global_queue(0, 0);
+    
+//    for (int i = 0; i < 10000000; i++) {
+//        dispatch_async(queue, ^{
+//            self.name = [NSString stringWithFormat:@"av"];// abcfghjkrtjghjkltyuiopfghjkfhjk
+//        });
+//    }
+    
     return YES;
-    
-    
     
 }
 
@@ -29,6 +40,7 @@
     if (a == 6) {
         NSLog(@"666666666");
     }
+    
 }
 
 - (void)codeCoverage{
@@ -48,10 +60,10 @@
     __gcov_flush();
 #endif
      
-    
-    
-    
-    
+}
+
+- (void)setName:(NSString *)name{
+    _name = name;
 }
 
 @end
