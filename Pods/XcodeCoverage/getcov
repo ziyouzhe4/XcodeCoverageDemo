@@ -126,7 +126,7 @@ exclude_data() {
     echo "XcodeCoverage: Excluding data"
   fi
 
-  echo '----------------------- 黑名单 -----------------------'
+  echo '------------------------------------ 黑名单 --------------------------------------'
   LCOV --remove "${LCOV_INFO}" "Developer/SDKs/*" -d "${OBJ_DIR}" -o "${LCOV_INFO}"
   LCOV --remove "${LCOV_INFO}" "main.m" -d "${OBJ_DIR}" -o "${LCOV_INFO}"
   LCOV --remove "${LCOV_INFO}" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/*" -d "${OBJ_DIR}" -o "${LCOV_INFO}"

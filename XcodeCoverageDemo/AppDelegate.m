@@ -26,10 +26,16 @@
 //        });
 //    }
     
+    int a = 5;
+    if (a == 6) {
+        NSLog(@"666666666");
+    }
+    
     NSLog(@"%s",__func__);
     
     return YES;
     
+//    .gcno
 }
 
 
@@ -38,10 +44,7 @@
 {
     [self codeCoverage];/// 生成覆盖率记录
     
-    int a = 5;
-    if (a == 6) {
-        NSLog(@"666666666");
-    }
+  
     
 }
 

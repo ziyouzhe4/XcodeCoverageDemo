@@ -13,10 +13,6 @@
 		0A07CADE259321D2003B6D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A07CADD259321D2003B6D86 /* Assets.xcassets */; };
 		0A07CAE1259321D2003B6D86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A07CADF259321D2003B6D86 /* LaunchScreen.storyboard */; };
 		0A07CAE4259321D2003B6D86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07CAE3259321D2003B6D86 /* main.m */; };
-		0A07CB17259325E1003B6D86 /* UNIIntegerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07CB0D259325E1003B6D86 /* UNIIntegerView.m */; };
-		0A07CB18259325E1003B6D86 /* UNIPriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07CB0E259325E1003B6D86 /* UNIPriceView.m */; };
-		0A07CB19259325E1003B6D86 /* UNITaximeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07CB14259325E1003B6D86 /* UNITaximeter.m */; };
-		0A07CB1A259325E1003B6D86 /* UIView+Drag.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07CB15259325E1003B6D86 /* UIView+Drag.m */; };
 		0A93825625A321B100A47937 /* TempVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A93825525A321B100A47937 /* TempVC.m */; };
 		618E02DF5CCED0BCE560E09B /* libPods-XcodeCoverageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AB46E58DB344840555166B /* libPods-XcodeCoverageDemo.a */; };
 /* End PBXBuildFile section */
@@ -32,14 +28,6 @@
 		0A07CAE0259321D2003B6D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A07CAE2259321D2003B6D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A07CAE3259321D2003B6D86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0A07CB0D259325E1003B6D86 /* UNIIntegerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIIntegerView.m; sourceTree = "<group>"; };
-		0A07CB0E259325E1003B6D86 /* UNIPriceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIPriceView.m; sourceTree = "<group>"; };
-		0A07CB0F259325E1003B6D86 /* UIView+Drag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Drag.h"; sourceTree = "<group>"; };
-		0A07CB10259325E1003B6D86 /* UNITaximeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNITaximeter.h; sourceTree = "<group>"; };
-		0A07CB12259325E1003B6D86 /* UNIIntegerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIIntegerView.h; sourceTree = "<group>"; };
-		0A07CB13259325E1003B6D86 /* UNIPriceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIPriceView.h; sourceTree = "<group>"; };
-		0A07CB14259325E1003B6D86 /* UNITaximeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNITaximeter.m; sourceTree = "<group>"; };
-		0A07CB15259325E1003B6D86 /* UIView+Drag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Drag.m"; sourceTree = "<group>"; };
 		0A93825425A321B100A47937 /* TempVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempVC.h; sourceTree = "<group>"; };
 		0A93825525A321B100A47937 /* TempVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempVC.m; sourceTree = "<group>"; };
 		93AB46E58DB344840555166B /* libPods-XcodeCoverageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XcodeCoverageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +68,6 @@
 		0A07CAD0259321D0003B6D86 /* XcodeCoverageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0A07CB0C259325E1003B6D86 /* 拖拽吸附效果 */,
 				0A07CB0A259325BE003B6D86 /* sys */,
 				0A07CAD1259321D0003B6D86 /* AppDelegate.h */,
 				0A07CAD2259321D0003B6D86 /* AppDelegate.m */,
@@ -102,22 +89,6 @@
 				0A07CAE3259321D2003B6D86 /* main.m */,
 			);
 			name = sys;
-			sourceTree = "<group>";
-		};
-		0A07CB0C259325E1003B6D86 /* 拖拽吸附效果 */ = {
-			isa = PBXGroup;
-			children = (
-				0A07CB0D259325E1003B6D86 /* UNIIntegerView.m */,
-				0A07CB0E259325E1003B6D86 /* UNIPriceView.m */,
-				0A07CB0F259325E1003B6D86 /* UIView+Drag.h */,
-				0A07CB10259325E1003B6D86 /* UNITaximeter.h */,
-				0A07CB12259325E1003B6D86 /* UNIIntegerView.h */,
-				0A07CB13259325E1003B6D86 /* UNIPriceView.h */,
-				0A07CB14259325E1003B6D86 /* UNITaximeter.m */,
-				0A07CB15259325E1003B6D86 /* UIView+Drag.m */,
-			);
-			name = "拖拽吸附效果";
-			path = "../../测试demo/测试demo/拖拽吸附效果";
 			sourceTree = "<group>";
 		};
 		DAD0C3BF4EA1300AC15D4178 /* Frameworks */ = {
@@ -290,13 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A07CB17259325E1003B6D86 /* UNIIntegerView.m in Sources */,
-				0A07CB1A259325E1003B6D86 /* UIView+Drag.m in Sources */,
 				0A93825625A321B100A47937 /* TempVC.m in Sources */,
 				0A07CAD9259321D0003B6D86 /* ViewController.m in Sources */,
-				0A07CB19259325E1003B6D86 /* UNITaximeter.m in Sources */,
 				0A07CAD3259321D0003B6D86 /* AppDelegate.m in Sources */,
-				0A07CB18259325E1003B6D86 /* UNIPriceView.m in Sources */,
 				0A07CAE4259321D2003B6D86 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +410,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4U4ZUHU97Y;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
